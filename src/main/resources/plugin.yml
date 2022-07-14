@@ -1,0 +1,28 @@
+name: Myplugin
+version: '${project.version}'
+main: com.qjl.myplugin.MyPlugin
+api-version: 1.16
+
+commands:
+  myhalf:
+    description: half yourself
+    permission: qjl.half
+    usage: /<command> [ratio]
+  open:
+    description: open inventory
+    permission: qjl.open
+    usage: /<command>
+  bow:
+    description: get bow
+    permission: qjl.bow
+    usage: /<command>
+
+
+permissions:
+  qjl.half:
+    default: true
+  qjl.open:
+    default: true
+  qjl.bow:
+    default: true
+
