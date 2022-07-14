@@ -40,6 +40,7 @@ public final class MyPlugin extends JavaPlugin {
         NamespacedKey nsk = new NamespacedKey(this, "key1");
         FurnaceRecipe fr1 = new FurnaceRecipe(nsk, new ItemStack(Material.GRASS), Material.STONE, 1F, 40);
         Bukkit.addRecipe(fr1);
+        //
 
     }
 
