@@ -41,6 +41,7 @@ public final class MyPlugin extends JavaPlugin {
         FurnaceRecipe fr1 = new FurnaceRecipe(nsk, new ItemStack(Material.GRASS), Material.STONE, 1F, 40);
         Bukkit.addRecipe(fr1);
         //
+        //
 
     }
 
